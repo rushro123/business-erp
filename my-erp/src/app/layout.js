@@ -4,23 +4,20 @@ import { Providers } from "@/components/providers"
 import {AppSidebar} from "@/components/layout/app-sidebar";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar"
 import { ModeToggle } from "@/components/mode-toggle";
-import { DM_Sans, Lora, IBM_Plex_Mono } from "next/font/google";
-const fontSans = DM_Sans({
+import { Inter, Merriweather, JetBrains_Mono } from "next/font/google";
+const fontSans = Inter({
   subsets: ["latin"],
   variable: "--font-sans",
-  weight: ["400", "500", "700"],
 });
 
-const fontSerif = Lora({
+const fontSerif = Merriweather({
   subsets: ["latin"],
   variable: "--font-serif",
-  weight: ["400", "600", "700"],
 });
 
-const fontMono = IBM_Plex_Mono({
+const fontMono = JetBrains_Mono({
   subsets: ["latin"],
   variable: "--font-mono",
-  weight: ["400", "500", "700"], // ✅ REQUIRED
 });
 export const metadata = {
   title: "Create Next App",

@@ -70,7 +70,7 @@ export default function Home({ children }) {
           {dashboardCards.map((card, index) => (
             <Card
               key={index}
-              className="bg-card !p-4 bg-white shadow border border-border hover:border-primary/40 transition-all"
+              className="bg-card !p-4 shadow border border-border transition-all"
             >
               <CardContent className="p-5 flex gap-1 justify-between ">
                 <div className="flex flex-col gap-4">
@@ -94,7 +94,7 @@ export default function Home({ children }) {
           {dashboardStats.map((stat, index) => (
             <Card
               key={index}
-              className="bg-card bg-white shadow !p-4 border border-border hover:border-primary/40 transition-all"
+              className="bg-card  shadow !p-4 border border-border  transition-all"
             >
               <CardContent className="p-5 flex gap-1 justify-between">
                 <div className="flex flex-col gap-4">

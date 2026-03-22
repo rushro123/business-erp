@@ -50,7 +50,7 @@ export function DialogDemo({ btnText, title, fields, onSubmit }) {
         <Button>{btnText}</Button>
       </DialogTrigger>
 
-      <DialogContent className="sm:max-w-sm bg-white p-4 overflow-visible">
+      <DialogContent className="sm:max-w-sm">
         <DialogHeader>
           <DialogTitle>{title}</DialogTitle>
         </DialogHeader>

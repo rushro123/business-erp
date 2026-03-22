@@ -52,9 +52,8 @@ export function AppSidebar() {
           <SidebarMenuItem>
             <SidebarMenuButton
               size="lg"
-              className="hover:bg-transparent active:bg-transparent data-[active=true]:bg-transparent"
             >
-              <div className="flex size-8 items-center justify-center rounded-lg bg-sidebar-primary text-sidebar-primary-foreground">
+              <div className="flex size-8 items-center justify-center rounded-lg ">
                 <Landmark className="size-4" />
               </div>
               <div className="flex flex-col gap-0.5 leading-none">
