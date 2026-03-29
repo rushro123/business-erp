@@ -280,7 +280,11 @@ html {
   }
   .data-\[active\=true\]\:bg-sidebar-accent[data-active="true"] {
     background-color: oklch(0.6691 0.1569 260.1063) !important;
-}
+    color:oklch(0.9777 0.0051 247.8763) !important;
+  }
+  .data-\[active\=true\]\:bg-sidebar-accent[data-active="true"] svg {
+    fill: oklch(0.9777 0.0051 247.8763) !important;
+  }
   .dark .data-\[active\=true\]\:bg-sidebar-accent[data-active="true"]{
     background-color: #2a2c33 !important;
   }
@@ -289,7 +293,7 @@ html {
         font-size: 2rem;
   }
 @media screen and (max-width: 768px) {
-  .bg-sidebar {
+  .dark .bg-sidebar {
         background-color: var(--sidebar);
         color: #fff;
   }
